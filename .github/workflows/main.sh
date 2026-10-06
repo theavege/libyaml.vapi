@@ -39,7 +39,7 @@ declare -ar VAR=(
     --cc=clang
     --vapidir=src
     --enable-{checking,mem-profiler,gobject-tracing}
-    --pkg=libyaml
+    --pkg={libyaml,posix}
     -X -lyaml
 )
 
